@@ -41,7 +41,7 @@ export default function Location() {
             
             <div className="mt-10">
               <a 
-                href="https://goo.gl/maps/placeholder" 
+                href="https://www.google.com/maps/search/?api=1&query=Posto+Quality,+QNL+11,+Taguatinga+Norte,+Brasília,+DF" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-arena-yellow hover:text-white font-bold uppercase tracking-wide transition-colors"
@@ -54,7 +54,7 @@ export default function Location() {
           <div className="w-full lg:w-1/2">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden glass-panel border border-white/10 p-2 shadow-2xl relative group">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15355.201657805213!2d-48.093530899999995!3d-15.811656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3372c3d10001%3A0xc6cb1c7df47402a3!2sPosto%20Quality%20(QNL%2011)!5e0!3m2!1spt-BR!2sbr!4v1712615950153!5m2!1spt-BR!2sbr" 
+                src="https://maps.google.com/maps?q=Posto%20Quality,%20QNL%2011,%20Taguatinga%20Norte,%20Brasília,%20DF&t=&z=15&ie=UTF8&iwloc=&output=embed" 
                 className="w-full h-full border-0 absolute inset-0"
                 allowFullScreen="" 
                 loading="lazy" 
