@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-arena-red: #ea0000;
+  --color-arena-red-dark: #b30000;
+  --color-arena-yellow: #ffcc00;
+  --color-arena-lead: #1c1c1c;
+  --color-arena-gray: #2d2d2d;
+  --color-arena-black: #0a0a0a;
+  --color-arena-white: #ededed;
+  
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-arena-black text-arena-white selection:bg-arena-red selection:text-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+
+  p {
+    @apply font-sans;
+  }
+}
+
+/* Custom Utilities for glassmorphism and accents */
+@layer utilities {
+  .glass-panel {
+    @apply bg-arena-lead/80 backdrop-blur-md border border-white/5;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-arena-yellow to-arena-red;
+  }
+}
