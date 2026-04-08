@@ -53,21 +53,13 @@ export default function Location() {
           
           <div className="w-full lg:w-1/2">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden glass-panel border border-white/10 p-2 shadow-2xl relative group">
-              {/* Map Placeholder */}
-              <div className="w-full h-full bg-arena-lead rounded-xl relative flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-[url('/assets/images/map-placeholder.jpg')] bg-cover bg-center mix-blend-overlay opacity-50" />
-                
-                {/* Custom Marker */}
-                <div className="relative z-10 flex flex-col items-center animate-bounce">
-                  <div className="bg-arena-red text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg mb-2">
-                    Arena Motos
-                  </div>
-                  <svg className="w-10 h-10 text-arena-red drop-shadow-lg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
-                </div>
-                
-                {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-arena-red/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
-              </div>
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15355.201657805213!2d-48.093530899999995!3d-15.811656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3372c3d10001%3A0xc6cb1c7df47402a3!2sPosto%20Quality%20(QNL%2011)!5e0!3m2!1spt-BR!2sbr!4v1712615950153!5m2!1spt-BR!2sbr" 
+                className="w-full h-full border-0 absolute inset-0"
+                allowFullScreen="" 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
           

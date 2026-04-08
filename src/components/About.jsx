@@ -13,8 +13,7 @@ export default function About() {
           {/* Image/Visual Column */}
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden glass-panel relative z-10">
-              <div className="absolute inset-0 bg-[url('/assets/images/bahia-about.jpg')] bg-cover bg-center bg-arena-gray items-center justify-center flex">
-                 <span className="text-white/30 font-medium">Foto do Bahia</span>
+              <div className="absolute inset-0 bg-[url('/assets/images/bahia.jpeg')] bg-cover bg-center bg-arena-gray items-center justify-center flex transition-transform duration-700 hover:scale-105">
               </div>
             </div>
             {/* Accents */}
