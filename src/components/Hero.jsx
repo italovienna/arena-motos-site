@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image Placeholder */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-arena-black via-arena-black/80 to-transparent z-10" />
-        <div className="absolute inset-0 bg-[url('/assets/images/fundo-site.png')] bg-cover bg-center opacity-40 bg-arena-lead" />
+        <div className="absolute inset-0 bg-[url('/assets/images/fundo-site.jpeg')] bg-cover bg-center opacity-40 bg-arena-lead" />
       </div>
 
       <div className="relative z-20 max-w-7xl mx-auto px-6 lg:px-8 w-full">
