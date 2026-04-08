@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section id="sobre" className="py-24 bg-arena-black relative overflow-hidden">
+    <section id="sobre" className="py-32 bg-gradient-to-b from-arena-black to-arena-lead relative overflow-hidden animate-fade-in-up">
       {/* Decorative patterns */}
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-arena-red/5 to-transparent pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-64 h-64 bg-arena-yellow/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-arena-red/10 to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-arena-yellow/10 rounded-full blur-[100px] pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

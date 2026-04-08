@@ -41,22 +41,22 @@ const servicesList = [
 
 export default function Services() {
   return (
-    <section id="servicos" className="py-24 bg-arena-lead relative border-y border-white/5">
+    <section id="servicos" className="py-32 bg-gradient-to-b from-arena-lead to-arena-black relative border-y border-white/5 animate-fade-in-up">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-sm font-bold text-arena-yellow tracking-widest uppercase mb-4">Especialidades</h2>
-          <h3 className="text-4xl md:text-5xl font-bold font-heading text-white mb-6">
-            O QUE FAZEMOS DE <span className="text-arena-red">MELHOR</span>
+        <div className="text-center max-w-3xl mx-auto mb-20">
+          <h2 className="text-sm font-bold text-arena-yellow tracking-widest uppercase mb-4 drop-shadow-md">Especialidades</h2>
+          <h3 className="text-5xl md:text-6xl font-black font-heading text-white mb-6 drop-shadow-lg">
+            O QUE FAZEMOS DE <span className="text-gradient">MELHOR</span>
           </h3>
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-xl font-medium">
             Da pista para a rua. Trazemos o rigor técnico das competições para o cuidado diário com a sua motocicleta.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {servicesList.map((service) => (
-            <div key={service.id} className="group relative overflow-hidden rounded-2xl glass-panel hover:bg-arena-gray/80 transition-all duration-300 flex flex-col h-full border-t border-white/5">
+            <div key={service.id} className="group relative overflow-hidden rounded-2xl glass-panel hover:bg-arena-gray/80 transition-all duration-500 flex flex-col h-full border-t border-white/5 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(255,204,0,0.15)]">
               
               <div className={`h-48 w-full ${service.image} bg-arena-black bg-cover bg-center flex items-center justify-center relative overflow-hidden`}>
                 <div className="absolute inset-0 bg-arena-black/60 group-hover:bg-arena-black/30 transition-all duration-500" />

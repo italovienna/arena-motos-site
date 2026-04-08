@@ -2,18 +2,18 @@ import React from 'react';
 
 export default function Location() {
   return (
-    <section id="localizacao" className="py-24 bg-arena-black relative">
+    <section id="localizacao" className="py-32 bg-gradient-to-b from-arena-black to-arena-lead relative animate-fade-in-up">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         
-        <div className="flex flex-col lg:flex-row gap-12 items-center">
+        <div className="flex flex-col lg:flex-row gap-16 items-center">
           
           <div className="w-full lg:w-1/2">
-            <h2 className="text-sm font-bold text-arena-red tracking-widest uppercase mb-4">Localização</h2>
-            <h3 className="text-4xl md:text-5xl font-bold font-heading text-white mb-6">
-              ONDE A <span className="text-arena-yellow">MÁGICA</span> ACONTECE
+            <h2 className="text-sm font-bold text-arena-red tracking-widest uppercase mb-4 drop-shadow-sm">Localização</h2>
+            <h3 className="text-5xl md:text-6xl font-black font-heading text-white mb-6 drop-shadow-md">
+              ONDE A <span className="text-gradient">MÁGICA</span> ACONTECE
             </h3>
             
-            <p className="text-gray-400 text-lg mb-8">
+            <p className="text-gray-300 text-xl font-medium leading-relaxed mb-10">
               Venha tomar um café com o Bahia e conhecer nossa estrutura. Estamos localizados no coração de Taguatinga, com fácil acesso e estacionamento amplo no Posto Quality.
             </p>
             
