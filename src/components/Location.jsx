@@ -24,7 +24,7 @@ export default function Location() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold text-lg">Endereço</h4>
-                  <p className="text-gray-400">Taguatinga Norte / QNL 11<br/>Posto Quality - Brasília, DF</p>
+                  <p className="text-gray-400">St. L Norte QNL 11 Conjunto F Lote 15 - Taguatinga Norte<br/>Posto Quality (Shell) - Brasília, DF, 72151-106</p>
                 </div>
               </div>
               
@@ -41,7 +41,7 @@ export default function Location() {
             
             <div className="mt-10">
               <a 
-                href="https://www.google.com/maps/search/?api=1&query=Posto+Quality,+QNL+11,+Taguatinga+Norte,+Brasília,+DF" 
+                href="https://www.google.com/maps/dir/?api=1&destination=St.+L+Norte+QNL+11+Conjunto+F+Lote+15+-+Taguatinga+Norte,+Brasília+-+DF" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-arena-yellow hover:text-white font-bold uppercase tracking-wide transition-colors"
@@ -54,7 +54,7 @@ export default function Location() {
           <div className="w-full lg:w-1/2">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden glass-panel border border-white/10 p-2 shadow-2xl relative group">
               <iframe 
-                src="https://maps.google.com/maps?q=Posto%20Quality,%20QNL%2011,%20Taguatinga%20Norte,%20Brasília,%20DF&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                src="https://maps.google.com/maps?q=St.%20L%20Norte%20QNL%2011%20Conjunto%20F%20lote%2015%20-%20Taguatinga%20norte,%20Bras%C3%ADlia%20-%20DF&t=&z=18&ie=UTF8&iwloc=&output=embed" 
                 className="w-full h-full border-0 absolute inset-0"
                 allowFullScreen="" 
                 loading="lazy" 
